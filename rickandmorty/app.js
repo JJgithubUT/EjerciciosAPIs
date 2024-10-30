@@ -1,30 +1,21 @@
 const URL_BASE = 'https://rickandmortyapi.com/api';
 const container = document.querySelector('.container');
 
-function createUl(characters) {
-    const ul = document.createElement('ul');
-    characters.forEach(character => {
-        const li = document.createElement('li');
-        li.innerText = character.name;
-        ul.appendChild(li);
-    });
-    container.appendChild(ul);
-}
-
 function createCard(character) {
     const card = document.createElement('div');
     let htmlObj = `
-    <img src=''>
+    <img src='${ character.image }'>
     <div>
-        <h1>${ character.name }</h1>
+        <h1 style="color: aqua;">${ character.name }</h1>
         <p>${ character.status } - ${ character.species }</p>
         <p>Última ubicación</p>
-        <p>UTT</p>
+        <p>${ character.location.name }</p>
         <p>Primera Aparición</p>
         <p>UTT</p>
     </div>
     `;
     card.innerHTML = htmlObj;
+    card.className = 'card';
     return card;
 }
 
