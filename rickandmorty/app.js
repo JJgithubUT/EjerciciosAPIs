@@ -79,3 +79,7 @@ divButtons.addEventListener('click', (e) => {
         getCharacters(page);
     }
 });
+
+document.querySelector('#status').addEventListener('change', e => {
+    getCharactersByStatus(e.target.value);
+});
