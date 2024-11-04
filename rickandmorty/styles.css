@@ -4,6 +4,15 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+.container_titulos {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    background-color: rgb(41, 41, 41);
+    color: white;
+}
+
 .container {
     display: flex;
     align-items: center;
@@ -34,4 +43,21 @@ body {
 .card div {
     padding: 10px;
     width: 350;
+}
+
+.botones{
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+
+.botones button {
+    padding: 10px 20px;
+    margin: 5px;
+    background-color: aqua;
+    color: black;
+    border: none;
 }
