@@ -57,11 +57,39 @@ body {
     background-color: white;
     display: flex;
     flex-direction: column;
+    justify-content:space-between;
+    border-radius: 10px;
+}
+
+.parteTermometro{
+    height: 50%;
+    width: 100%;
+    border-radius: 10px;
+    border: 10px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
     justify-content: end;
 }
 
-.subbarra{
-    height: 10%;
+.parteTermometro.parte2{
+    border-top: 5px solid rgb(172, 170, 167);
+    border-radius: 0px 0px 10px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.subbarra1{
+    height: 0%;
     width: 100%;
-    background-color: black;
+    background-color: red;
+    border-radius: 10px;
+}
+
+.subbarra2{
+    height: 0%;
+    width: 100%;
+    background-color: blue;
+    border-radius: 10px;
 }
