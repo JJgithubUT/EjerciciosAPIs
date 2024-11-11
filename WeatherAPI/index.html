@@ -8,37 +8,38 @@
 </head>
 <body>
     <div class="content">
-
         <div class="barraTitulos">
             <h1>Buku buku chagama</h1>
         </div>
-
         <div class="contenedorContenedores">
             <div class="contenedor">
                 <h2>Temperatura</h2>
                 <div class="temperaturaDiv">
                     <h3><span id="spanNumeroTermometro"></span></h3>
                     <div class="barraTermometro">
-
                         <div class="parteTermometro">
                             <div class="subbarra1"></div>
                         </div>
                         <div class="parteTermometro parte2">
                             <div class="subbarra2"></div>
                         </div>
-
                     </div>
                 </div>
             </div>
             <div class="contenedor clima">
                 <input type="text" id="inputBuscarCity" placeholder="Ingresar Ciudad del Mundo"> 
                 <button id="botonBuscarCity">Buscar</button>
+                <div>
+                    <h3>🏙️ <span id="spanNombre"></span> 🏙️</h3>
+                    <p>País: <span id="spanPais"></span></p>
+                    <p>🌤️: <span id="spanClima"></span></p>
+                    <p>Hora: <span id="spanHora"></span></p>
+                </div>
             </div>
             <div class="contenedor reloj">
-
+                <!-- Aquí se va a hacer el reloj -->
             </div>
         </div>
-
     </div>
     <script src="./app.js"></script>
 </body>

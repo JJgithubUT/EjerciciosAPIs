@@ -46,8 +46,8 @@ body {
     justify-content:center;
     align-items: center;
     background-color: rgb(214, 214, 214);
-    border-radius: 100px;
-    border: 5px solid rgb(153, 39, 62);
+    border-radius: 10px;
+    /*border: 5px solid rgb(153, 39, 62);*/
     color: rgb(153, 39, 62);
 }
 
@@ -84,12 +84,12 @@ body {
     height: 0%;
     width: 100%;
     background-color: red;
-    border-radius: 10px;
+    border-radius: 10px 10px 0px 0px;
 }
 
 .subbarra2{
     height: 0%;
     width: 100%;
     background-color: blue;
-    border-radius: 10px;
+    border-radius: 0px 0px 10px 10px;
 }
